@@ -24,7 +24,6 @@ class InformationService
   end
 
   def episodes ep_id
-
     url = "https://rickandmortyapi.com/api/episode/#{ep_id}"
     parse_episode = self.request_url url
     air_dates = parse_episode.map { |episode| episode['air_date'].to_datetime.to_i}
@@ -42,5 +41,4 @@ class InformationService
         e.response
     end
   end
-
 end
