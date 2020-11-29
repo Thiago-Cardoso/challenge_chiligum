@@ -1,5 +1,3 @@
-# challenge_rickandmortyapi
-
 <h1 align="center">Challenge Chiligum Test API</h1>
 
 <p align="center">
