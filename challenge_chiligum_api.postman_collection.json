@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "37f91f4d-39f8-4b13-b188-757c59058090",
+		"name": "challenge_chiligum_api",
+		"description": "# Introduction\n\nDocumentation Api - challenge_chiligum_api\n\n# Error Codes\n\n**200 - OK**\n\n\n**400 – Bad Request**\n\n**404 - Not Found**\n\n**500 - Server error**\n\n# Rate limit\n\n**100 - Request per minute**",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Informations",
+			"item": [
+				{
+					"name": "show",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/informations/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"informations",
+								"1"
+							]
+						},
+						"description": "\nLists information that the character aired for the first time,\nfor example\nid 1 - Rick Sanchez\nair_date - 12/02/2013"
+					},
+					"response": [
+						{
+							"name": "list_information_data_success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/v1/informations/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"v1",
+										"informations",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 09 Jul 2020 19:01:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"433fecfe0238396a399b121c2b2c7422\""
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=0, private, must-revalidate"
+								},
+								{
+									"key": "X-Request-Id",
+									"value": "06be01bc-1619-46be-858f-c461ed685b4a"
+								},
+								{
+									"key": "X-Runtime",
+									"value": "0.091554"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"1\",\n    \"air_date\": \"02/12/2013\"\n}"
+						},
+						{
+							"name": "list_information_error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/v1/informations/0",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"v1",
+										"informations",
+										"0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "cache-control",
+									"value": "max-age=0, private, must-revalidate"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"errors\": \"Error not was informed id character\"\n}"
+						}
+					]
+				}
+			],
+			"description": "This API will not use a database and will not require views, it must have only one endpoint. To assemble a response from this endpoint, your API must consume the following external API: [https://rickandmortyapi.com/documentation!(https://rickandmortyapi.com/documentation)\nRickAndMortyAPI provides information about the characters, episodes, etc. concerning the series Rick and Morty. The endpoint specifications that you must make available in your API should:\nRequest parameters: character id\nResponse body: date that character was first aired (in DD / MM / YYYY format)\nNote that to get this answer you need to consume more than one different endpoint!",
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "157e5e9d-8e8f-4277-b009-1ed64fbbf89a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "16050a16-1491-48e1-b3ca-71237ceb1a85",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
