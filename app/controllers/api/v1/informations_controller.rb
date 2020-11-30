@@ -1,12 +1,19 @@
 module Api
   module V1
     class InformationsController < Api::V1::ApiController
+      def index
+        not_found
+      end
       def show
-        result = InformationService.new(params[:id]).call
+        if params[:id]
+          result = InformationService.new(params[:id]).call
           render json: result
+        else
+          not_found
+        end
           rescue => error
-            render json: { errors: "Error was not informed the character id"}, status: :unprocessable_entity
-          end
+            render json: { errors: "Error not was informed id character"}, status: :unprocessable_entity
+        end
       end
   end
 end

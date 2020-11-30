@@ -102,3 +102,97 @@ Processing by Api::V1::InformationsController#show as */*
 Completed 200 OK in 340ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5955)
 
 
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:40:15 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4429)
+
+
+  
+NameError (undefined local variable or method `not_found' for #<Api::V1::InformationsController:0x00007f4628bae008>):
+  
+app/controllers/api/v1/informations_controller.rb:5:in `index'
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:41:17 -0300
+  [1m[35m (13.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 4429)
+
+
+  
+NameError (undefined local variable or method `not_found' for #<Api::V1::InformationsController:0x000055c127d65dd8>):
+  
+app/controllers/api/v1/informations_controller.rb:5:in `index'
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:42:07 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4429)
+
+
+  
+NameError (undefined local variable or method `not_found' for #<Api::V1::InformationsController:0x00007f1808afe8e0>):
+  
+app/controllers/api/v1/informations_controller.rb:5:in `index'
+Started GET "/api/v1/informations/1" for 172.30.0.1 at 2020-11-29 22:43:48 -0300
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 531ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 5981)
+
+
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:43:53 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4376)
+
+
+  
+NameError (undefined local variable or method `not_found' for #<Api::V1::InformationsController:0x00007ffb380083a0>):
+  
+app/controllers/api/v1/informations_controller.rb:5:in `index'
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:45:39 -0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started GET "/api/v1/informations/1" for 172.30.0.1 at 2020-11-29 22:45:45 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 344ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5896)
+
+
+Started GET "/api/v1/informations/0" for 172.30.0.1 at 2020-11-29 22:45:51 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 531ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Started GET "/api/v1/informations/0" for 172.30.0.1 at 2020-11-29 22:46:30 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 469ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1062)
+
+
+Started GET "/api/v1/informations/0" for 172.30.0.1 at 2020-11-29 22:51:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 2324ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1473)
+
+
+Started GET "/api/v1/informations/1" for 172.30.0.1 at 2020-11-29 22:51:23 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 271ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5061)
+
+
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:51:30 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 105)
+
+

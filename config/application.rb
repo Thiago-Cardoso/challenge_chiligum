@@ -27,6 +27,10 @@ module ChallengeChiligum
     #Configure rack attack
     config.middleware.use Rack::Attack
 
+    config.after_initialize do |app|
+      app.routes.append{ match '*a', :to => 'application#not_found' } unless config.consider_all_requests_local
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
