@@ -1,4 +1,4 @@
-<h1 align="center">Challenge Chiligum Test API</h1>
+<h1 align="center">Challenge Chiligum Test API </h1>
 
 <p align="center">
   <a href="https://github.com/tiagoleal/coin_conversion">
@@ -25,8 +25,8 @@
    - Response body data that the character was air date the first time
 
 - **Test:** 
-    - Test of Requests running docker-compose run --rm app bundle exec rspec spec/requests/api/v1/api_v1_informations_spec.rb
-    - Test of Services running docker-compose run --rm app bundle exec rspec spec/services/information_service_spec.rb
+    - Test of Requests running - docker-compose run --rm app bundle exec rspec spec/requests/api/v1/api_v1_informations_spec.rb
+    - Test of Services running - docker-compose run --rm app bundle exec rspec spec/services/information_service_spec.rb
     
 ## Docs API
 
