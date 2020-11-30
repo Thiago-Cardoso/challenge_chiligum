@@ -26,8 +26,13 @@ class InformationService
   def episodes ep_id
     url = "https://rickandmortyapi.com/api/episode/#{ep_id}"
     parse_episode = self.request_url url
-    air_dates = parse_episode.map { |episode| episode['air_date'].to_datetime.to_i}
-    first_air_dates = air_dates.sort[0] + 10800
+    if ep_id.include? ","
+      air_dates = parse_episode.map { |episode| episode['air_date'].strip.to_datetime.to_i}
+      first_air_dates = air_dates.sort[0] + 10800
+    else 
+      air_dates = parse_episode['air_date'].strip.to_datetime.to_i 
+      first_air_dates = air_dates + 10800
+    end
     air_date_format_convert = Time.at(first_air_dates).strftime("%d/%m/%Y")
     air_date_format_convert
   end

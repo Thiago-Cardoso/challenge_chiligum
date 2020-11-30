@@ -196,3 +196,635 @@ Processing by Api::V1::InformationsController#index as */*
 Completed 500 Internal Server Error in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 105)
 
 
+Started GET "/api/v1/informations" for 172.30.0.1 at 2020-11-29 22:56:53 -0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started GET "/api/v1/informations/1" for 172.30.0.1 at 2020-11-29 22:56:59 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 341ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6021)
+
+
+Started GET "/api/v1/informations/2" for 172.30.0.1 at 2020-11-29 22:57:07 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 363ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5102)
+
+
+Started GET "/api/v1/informations" for 172.25.0.1 at 2020-11-30 00:19:09 -0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started GET "/api/v1/informations/1" for 172.25.0.1 at 2020-11-30 00:19:14 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 1290ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6108)
+
+
+Started GET "/api/v1/informations/6" for 172.25.0.1 at 2020-11-30 00:19:21 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"6", "information"=>{}}
+Completed 200 OK in 266ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2326)
+
+
+Started GET "/api/v1/informations/2" for 172.25.0.1 at 2020-11-30 00:19:30 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 286ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5211)
+
+
+Started GET "/api/v1/informations/1" for 172.25.0.1 at 2020-11-30 00:19:37 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 409ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5213)
+
+
+Started GET "/api/v1/informations/1" for 172.25.0.1 at 2020-11-30 00:20:13 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 327ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 5549)
+
+
+Started GET "/api/v1/informations/6" for 172.25.0.1 at 2020-11-30 00:20:18 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"6", "information"=>{}}
+Completed 200 OK in 271ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 2361)
+
+
+Started GET "/api/v1/informations/10" for 172.25.0.1 at 2020-11-30 00:20:24 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"10", "information"=>{}}
+Completed 200 OK in 662ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2380)
+
+
+Started GET "/api/v1/informations/11" for 172.25.0.1 at 2020-11-30 00:20:30 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"11", "information"=>{}}
+Completed 200 OK in 270ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2286)
+
+
+Started GET "/api/v1/informations/16" for 172.25.0.1 at 2020-11-30 00:20:36 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"16", "information"=>{}}
+Completed 200 OK in 397ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+Started GET "/api/v1/informations/50" for 172.25.0.1 at 2020-11-30 00:20:43 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"50", "information"=>{}}
+Completed 200 OK in 533ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2323)
+
+
+Started GET "/api/v1/informations/200" for 172.25.0.1 at 2020-11-30 00:20:50 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"200", "information"=>{}}
+Completed 200 OK in 735ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 2361)
+
+
+Started GET "/api/v1/informations/1" for 172.25.0.1 at 2020-11-30 00:23:22 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 414ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6162)
+
+
+Started POST "/api/v1/informations/1" for 172.25.0.1 at 2020-11-30 00:23:27 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations" for 172.25.0.1 at 2020-11-30 00:23:37 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations" for 172.25.0.1 at 2020-11-30 00:23:51 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 114)
+
+
+Started GET "/api/v1/informations" for 172.26.0.1 at 2020-11-30 00:24:38 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started POST "/api/v1/informations" for 172.26.0.1 at 2020-11-30 00:24:44 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 00:52:33 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 1229ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6133)
+
+
+Started GET "/api/v1/informations/6" for 172.28.0.1 at 2020-11-30 00:52:39 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"6", "information"=>{}}
+Completed 200 OK in 308ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 00:52:46 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 340ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 00:52:59 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 114)
+
+
+Started POST "/api/v1/informations" for 172.28.0.1 at 2020-11-30 00:53:08 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations/2" for 172.28.0.1 at 2020-11-30 01:02:04 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 531ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6032)
+
+
+Started GET "/api/v1/informations/2" for 172.28.0.1 at 2020-11-30 01:02:33 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 291ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5140)
+
+
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:02:54 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 395ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5113)
+
+
+Started GET "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 01:03:04 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 563ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Started GET "/api/v1/informations/t" for 172.28.0.1 at 2020-11-30 01:03:11 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"t", "information"=>{}}
+Completed 422 Unprocessable Entity in 534ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1063)
+
+
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:03:19 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 114)
+
+
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:04:21 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 400 Bad Request in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started POST "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:04:28 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:05:15 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:06:59 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:08:31 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 438ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6025)
+
+
+Started POST "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:08:36 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:08:45 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:08:50 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 500 Internal Server Error in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 114)
+
+
+Started POST "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:09:37 -0300
+  [1m[35m (10.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:10:27 -0300
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:10:33 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 01:10:38 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/informations/0"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:10:49 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 404 Not Found in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 201)
+
+
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 01:16:58 -0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 203)
+
+
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:17:04 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 470ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5944)
+
+
+Started GET "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 01:17:11 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 562ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1067)
+
+
+Started GET "/" for 172.28.0.1 at 2020-11-30 01:29:28 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /app-gems/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /app-gems/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 47.7ms | Allocations: 295)
+Completed 200 OK in 106ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 1666)
+
+
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:32:53 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 550ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5271)
+
+
+Started GET "/api/v1/informations/1" for 172.28.0.1 at 2020-11-30 01:47:54 -0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"1", "information"=>{}}
+Completed 200 OK in 596ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6031)
+
+
+Started GET "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 01:47:59 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 564ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1070)
+
+
+Started GET "/api/v1/informations/2" for 172.28.0.1 at 2020-11-30 01:48:04 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 324ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5140)
+
+
+Started GET "/api/v1/informations/2" for 172.28.0.1 at 2020-11-30 02:02:47 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"2", "information"=>{}}
+Completed 200 OK in 488ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5149)
+
+
+Started GET "/api/v1/informations/5" for 172.28.0.1 at 2020-11-30 02:02:51 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"5", "information"=>{}}
+Completed 200 OK in 276ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4291)
+
+
+Started GET "/api/v1/informations/0" for 172.28.0.1 at 2020-11-30 02:02:56 -0300
+Processing by Api::V1::InformationsController#show as */*
+  Parameters: {"id"=>"0", "information"=>{}}
+Completed 422 Unprocessable Entity in 372ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1064)
+
+
+Started GET "/api/v1/informations" for 172.28.0.1 at 2020-11-30 02:03:00 -0300
+Processing by Api::V1::InformationsController#index as */*
+  Parameters: {"information"=>{}}
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 112)
+
+
